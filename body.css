@@ -1,0 +1,29 @@
+#bg{
+    background-image: url("https://templates.iqonic.design/hope-ui/html/dist/assets/images/dashboard/top-header.png ");
+    object-fit: cover;
+    height: 30%;
+    background-repeat: no-repeat;
+}
+.announcement{
+    text-decoration: none;
+    /* border: 1px solid; */
+    padding: 8px;
+    background-color: rgba(204, 204, 204, 0.3);
+}
+.announcement:hover{
+    background-color: rgba(204, 204, 204, 0.7);
+}
+#img{
+    margin: -5% 0 0 2%;
+}
+#card-nav{
+    margin: -20px 0 2% 0;
+}
+#card2{
+    width: 20%;
+    margin-bottom:1% ;
+}
+.gallery{
+    height: 80px;
+    width: 80px;
+}

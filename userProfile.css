@@ -1,0 +1,26 @@
+body{
+    padding: 0;
+    margin: 0%;
+}
+nav{
+    margin: -35px 0 0 50px;
+}
+.item-name{
+    color: #6c757d;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: inter sans-serif;
+}
+a{
+    text-decoration: none !important;
+    color: #6c757d !important;
+}
+/* search bar css */
+.input-group-text{
+    background-color: #fff !important;
+    border: none !important;
+}
+.form-control{
+    border:none !important;
+    width:100%;
+}

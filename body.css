@@ -17,14 +17,14 @@
     margin: -5% 0 0 2%;
 }
 #card-nav{
-    margin: -20px 0 2% 0;
+    margin: -2% 0 2% 0;
 }
 #card2{
     /* width: 20%; */
     margin-bottom:1% ;
 }
 .gallery{
-    height: 80px;
+    height: 50px;
     /* width: 70px; */
 }
 .figma{
@@ -75,3 +75,12 @@
     color: aliceblue;
     background-color: blue;
 }
+.icon{
+    border-radius: 20px;
+}
+/* aside{
+    position: fixed;
+} */
+/* body{
+    overflow-y: hidden;
+} */

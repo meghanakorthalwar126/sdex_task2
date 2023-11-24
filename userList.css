@@ -1,0 +1,52 @@
+#bg{
+    background-image: url("https://templates.iqonic.design/hope-ui/html/dist/assets/images/dashboard/top-header.png ");
+    object-fit: cover;
+    height: 30%;
+    background-repeat: no-repeat;
+}
+.announcement{
+    text-decoration: none;
+    /* border: 1px solid; */
+    padding: 8px;
+    background-color: rgba(204, 204, 204, 0.3);
+}
+.announcement:hover{
+    background-color: rgba(204, 204, 204, 0.7);
+}
+th,td{
+    padding: 10px 20px 0 20px;
+    text-align: center;
+    /* margin: 0 30px; */
+}
+th{
+    /* background-color: #F2F2F2; */
+    color: #8A92A6; 
+    font-size: 15px;
+}
+tr:nth-child(odd){
+    font-size: 15px;
+}
+tr:nth-child(even){
+    /* background-color: #F2F2F2; */
+    font-size: 15px;
+}
+#table-div{
+    background-color: white;
+    margin-top: -30px;
+    border-radius: 10px;
+    /* border: 2px solid; */
+    margin-left: 2%;
+    overflow-x: scroll;
+    /* max-width: 80%; */
+    /* object-fit: contain; */
+    object-fit: cover;
+    
+    max-width:95%;
+}
+#table-div::-webkit-scrollbar{
+    height: 6px;
+}
+#table-div::-webkit-scrollbar-thumb{
+    background-color: blue;
+}
+

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href=""> -->
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <div style="width: 250px;" class="input-group search-input rounded-2 border border-1 border-secondary">
+            <i class="fa-solid fa-magnifying-glass text-secondary input-group-text py-2 bg-light border-0 "></i>
+            <input type="search" class="form-control border-0 w-50" placeholder="Search...">
+          </div>
+          <div class="d-flex">
+            <a class="btn bg-primary text-light px-4  me-4 h-50 mt-2" href="#"><i class="fas fa-paper-plane"></i> GoPro</a>
+            <div class="dropdown">
+              <button title="Country" class="btn dropdown" type="button" id="languageDropdown" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <img style="height: 30px;width: 30px;border-radius: 50%;"src="https://templates.iqonic.design/hope-ui/html/dist/assets/images/Flag/flag001.png">
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                <li><a class="dropdown-item" href="#"><img src="https://templates.iqonic.design/hope-ui/html/dist/assets/images/Flag/flag-03.png"alt="">Spanish</a></li>
+                <li><a class="dropdown-item" href="#"><img src="https://templates.iqonic.design/hope-ui/html/dist/assets/images/Flag/flag-04.png" alt="">Italian</a></li>
+                <li><a class="dropdown-item" href="#"><img src="https://templates.iqonic.design/hope-ui/html/dist/assets/images/Flag/flag-02.png" alt="">French</a></li>
+                <li><a class="dropdown-item" href="#"><img src="https://templates.iqonic.design/hope-ui/html/dist/assets/images/Flag/flag-05.png" alt="">German</a></li>
+                <li><a class="dropdown-item" href="#"><img src="https://templates.iqonic.design/hope-ui/html/dist/assets/images/Flag/flag-06.png" alt="">Japanese</a></li>
+              </ul>
+            </div>
+
+            <div class="dropdown">
+              <button title="Notifications" class="btn dropdown" type="button" id="notificationDropdown"data-bs-toggle="dropdown" aria-expanded="false">
+                <a href="#" class="me-4"><i class="fas fa-bell pt-3 fs-5 text-secondary"></i></a>
+              </button>
+              <ul style="min-width: 250px;" class="dropdown-menu" aria-labelledby="notificationDropdown">
+                <li>
+                  <h5 style="background-color: blue;color: white;">All Notifications</h6>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <div class="d-flex align-items-center">
+                      <img style="height: 32px;width: 32px;" class="p-1 avatar-40 rounded-pill bg-soft-primary"src="https://templates.iqonic.design/hope-ui/html/dist/assets/images/shapes/01.png" alt="">
+                      <div class="ms-3 w-100">
+                        <h6 class="mb-0 ">Emma Watson Bni</h6>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <p class="mb-0">95 MB</p>
+                          <small class="float-end font-size-12">Just Now</small>
+                        </div>
+                      </div>
+                    </div>
+                    <hr>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <div class="d-flex align-items-center">
+                      <img style="height: 32px;width: 32px;" class="p-1 avatar-40 rounded-pill bg-soft-primary"src="https://templates.iqonic.design/hope-ui/html/dist/assets/images/shapes/02.png" alt="">
+                      <div class="ms-3 w-100">
+                        <h6 class="mb-0 ">New Custmer is join</h6>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <p class="mb-0">Cyst bni</p>
+                          <small class="float-end font-size-8">5 Days ago</small>
+                        </div>
+                      </div>
+                    </div>
+                    <hr>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <div class="d-flex align-items-center">
+                      <img style="height: 32px;width: 32px;" class="p-1 avatar-40 rounded-pill bg-soft-primary" src="https://templates.iqonic.design/hope-ui/html/dist/assets/images/shapes/03.png" alt="">
+                      <div class="ms-3 w-100">
+                        <h6 class="mb-0 ">Two Customer is left</h6>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <p class="mb-0">Cyst bni</p>
+                          <small class="float-end font-size-8">2 Days ago</small>
+                        </div>
+                      </div>
+                    </div>
+                    <hr>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <div class="d-flex align-items-center">
+                      <img style="height: 32px;width: 32px;" class="p-1 avatar-40 rounded-pill bg-soft-primary" src="https://templates.iqonic.design/hope-ui/html/dist/assets/images/shapes/04.png" alt="">
+                      <div class="ms-3 w-100">
+                        <h6 class="mb-0 ">New Mail From Fenny</h6>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <p class="mb-0">Cyst bni</p>
+                          <small class="float-end font-size-8">3 Days ago</small>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="dropdown">
+              <button title="Messages" class="btn dropdown" type="button" id="notificationDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                <a href="#" class="me-4"><i class="fas fa-envelope pt-3 fs-5 text-secondary "></i></a>
+              </button>
+              <ul style="min-width: 250px;font-size: medium;max-height: fit-content;" class="dropdown-menu"aria-labelledby="notificationDropdown">
+                <li>
+                  <h5 style="background-color: blue;color: white;">All Messages</h5>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <div class="d-flex align-items-center">
+                      <img style="height: 32px;width: 32px;" class="p-1 avatar-40 rounded-pill bg-soft-primary" src="https://templates.iqonic.design/hope-ui/html/dist/assets/images/shapes/01.png" alt="">
+                      <div class="ms-3 w-100">
+                        <h6 class="mb-0 ">Bni Emma Watson</h6>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <p class="mb-0">13 Jun</p>
+                        </div>
+                      </div>
+                    </div>
+                    <hr>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <div class="d-flex align-items-center">
+                      <img style="height: 32px;width: 32px;" class="p-1 avatar-40 rounded-pill bg-soft-primary" src="https://templates.iqonic.design/hope-ui/html/dist/assets/images/shapes/02.png" alt="">
+                      <div class="ms-3 w-100">
+                        <h6 class="mb-0 ">Lorem Ipsum Watson</h6>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <p class="mb-0">20 Apr</p>
+                        </div>
+                      </div>
+                    </div>
+                    <hr>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <div class="d-flex align-items-center">
+                      <img style="height: 32px;width: 32px;" class="p-1 avatar-40 rounded-pill bg-soft-primary"
+                        src="https://templates.iqonic.design/hope-ui/html/dist/assets/images/shapes/03.png" alt="">
+                      <div class="ms-3 w-100">
+                        <h6 class="mb-0 ">Why do we use it?</h6>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <p class="mb-0">30 Jun</p>
+                        </div>
+                      </div>
+                    </div>
+                    <hr>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <div class="d-flex align-items-center">
+                      <img style="height: 32px;width: 32px;" class="p-1 avatar-40 rounded-pill bg-soft-primary"
+                        src="https://templates.iqonic.design/hope-ui/html/dist/assets/images/shapes/04.png" alt="">
+                      <div class="ms-3 w-100">
+                        <h6 class="mb-0 ">Variations Passages</h6>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <p class="mb-0">12 Sep</p>
+                        </div>
+                      </div>
+                    </div>
+                    <hr>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <div class="d-flex align-items-center">
+                      <img style="height: 32px;width: 32px;" class="p-1 avatar-40 rounded-pill bg-soft-primary"
+                        src="https://templates.iqonic.design/hope-ui/html/dist/assets/images/shapes/05.png" alt="">
+                      <div class="ms-3 w-100">
+                        <h6 class="mb-0 ">Lorem Ipsum generators</h6>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <p class="mb-0">5 Dec</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <a class="py-0 nav-link d-flex align-items-center show" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="true">
+              <img title=" Holder" style="height: 50px; width: 50px; border-radius: 50%;"
+                src="https://templates.iqonic.design/hope-ui/html/dist/assets/images/avatars/01.png" alt="User-Profile"
+                class="theme-color-default-img img-fluid avatar avatar-50 avatar-rounded">
+              <div title="Account Details" class="caption ms-3 d-none d-md-block ">
+                <h6 class="mb-0 caption-title">Austin Robertson</h6>
+                <p class="mb-0 caption-sub-title">Marketing Administrator</p>
+              </div>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="../../dashboard/app/user-profile.html">Profile</a></li>
+              <li><a class="dropdown-item" href="../../dashboard/app/user-privacy-setting.html">Privacy Setting</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="../../dashboard/auth/sign-in.html">Logout</a></li>
+            </ul>
+
+            <!-- <h6 class="me-4 pt-1">Austin Robertson<br><span class="text-secondary fw-4">Marketing Administrator</span>
+            </h6> -->
+          </div>
+        </div>
+      </nav>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

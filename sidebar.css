@@ -1,0 +1,57 @@
+*{
+    margin: 0%;
+    padding: 0%;
+  }   
+  .rightarrow{
+    border-radius: 50px !important;
+    position: absolute;
+    left: 5%;
+  }
+  .leftarrow{
+    border-radius: 50px !important;
+    position: absolute;
+    left: 15%;
+    top:7px
+  }
+ 
+  .list-items{
+      text-decoration: none;
+      color: gray; 
+  }
+  .sub-items{
+      margin-top: 5px;
+    }
+   #aside{
+    height: 610px;
+    overflow-y: scroll;
+   }
+   #aside::-webkit-scrollbar {
+    width: 8px; 
+  } 
+  #aside::-webkit-scrollbar-thumb {
+    background-color:gray; 
+    border-radius: 6px; 
+}
+#main{
+    height:700px ;
+    overflow-y: scroll;
+}
+#main::-webkit-scrollbar {
+    width: 6px; 
+} 
+#main::-webkit-scrollbar-thumb {
+    background-color:blue; 
+    border-radius: 6px; 
+}
+/* add user css */
+.Profile-img{
+  height: 8% ;
+  width: 8% ;
+  border-radius: 50%;
+  margin-top: -5%;
+  margin-left: 5%;
+}
+.container{
+  display: flex;
+} 
+
